@@ -8,12 +8,13 @@ import JobDetails from "./pages/JobDetails";
 import Apply from "./pages/Apply";
 import SavedJobs from "./pages/SavedJobs";
 import NotFound from "./pages/NotFound";
+import "./App.css"
 
 function App() {
   return (
     <HashRouter>
       <Navbar />
-
+      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/jobs" element={<Jobs />} />
